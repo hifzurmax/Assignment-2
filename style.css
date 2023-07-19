@@ -378,6 +378,7 @@
     .menu>ul,
     .about,
     .online-image,
+    .list >ul,
     .play {
         flex-direction: column;
     }
