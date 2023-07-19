@@ -434,7 +434,7 @@
     }
 
     .play-images {
-        width: 100%;
+        width: 80%;
     }
 
     .play2 img {
@@ -456,7 +456,26 @@
     .game-items-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
+        width: 80%;
+    }
+    .game-item {
+        display: flex;
+        width: 70px;
+        height: 20px;
+        margin-top: 5px;
+        padding: 2px 5px;
+    }
+    
+    .game-item h6 {
+        margin-top: 5px;
+        padding-left: 5px;
+        color: #5d5c5e;
+        font-size: 5px;
+    }
+    
+    .game-item img {
+        height: 15px;
+        width: 15px;
     }
 
 }
