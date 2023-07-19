@@ -16,6 +16,7 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
 /* Nav Styles */
 
 .nav {
@@ -157,31 +158,37 @@
     margin: 50px auto;
 }
 
-.about-image{
+.about-image {
     width: 60%;
 }
-.about-image img{
+
+.about-image img {
     width: 100%;
 }
-.about-text{ 
+
+.about-text {
     width: 40%;
     padding-left: 30px;
 }
-.about-text h3{
+
+.about-text h3 {
     text-align: right;
     font-size: 30px;
     color: #8C57EE;
 }
+
 .about p {
     font-size: 13px;
     font-weight: 500;
     color: #534C64;
     text-align: right;
 }
-.btn-left{
+
+.btn-left {
     display: flex;
     justify-content: flex-end;
 }
+
 .about-text h5 {
     font-size: 20px;
     font-weight: 500;
@@ -189,6 +196,7 @@
     text-align: right;
     margin-top: 100px;
 }
+
 .about-text h4 {
     font-size: 25px;
     font-weight: 700;
@@ -196,12 +204,13 @@
     text-align: right;
     margin-top: -20px;
 }
+
 .online {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.online-text h3{
+.online-text h3 {
     text-align: center;
     font-size: 30px;
 }
@@ -252,6 +261,7 @@
     text-align: right;
     font-size: 35px;
 }
+
 .play-instant {
     color: #F948B2;
 }
@@ -262,9 +272,11 @@
     color: #534C64;
     text-align: right;
 }
+
 .play-images {
     width: 55%;
 }
+
 .play2 img {
     width: 80%;
     padding-left: 130px;
@@ -275,7 +287,7 @@
     width: 150px;
 }
 
-.play1{
+.play1 {
     position: relative;
     left: 68px;
     top: -140px;
@@ -283,111 +295,168 @@
 
 
 /* Game items styles */
-.game-items {
+.game-items-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
+
 .game-item {
     display: flex;
+    width: 158px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.game-item h6 {
+    margin-top: 15px;
+    padding-left: 10px;
+    color: #0B0223;
+    font-size: 11px;
+}
+
+.game-item img {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.game-item:hover {
+    border: 1px solid black;
+    border-radius: 48px;
+    cursor: pointer;
 }
 
 /* Mobile Styles */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+
     .nav,
     .menu>ul,
     .about,
     .online-image,
-    .play
-    {
+    .play {
         flex-direction: column;
     }
-    .menu>ul{
+
+    .menu>ul {
         padding-left: 0;
     }
+
     .banner {
         flex-direction: column-reverse;
         margin-top: 180px;
     }
+
     .menu>ul>li {
         margin-top: 20px;
     }
+
     .logo {
         margin-bottom: -40px;
     }
+
     .banner-image img {
         width: 80%;
         position: relative;
         left: 40px;
         margin-bottom: 40px;
     }
+
     .signin {
         padding: 10px 20px;
         font-size: 13px;
     }
+
     .go {
         padding: 10px 20px;
         font-size: 13px;
     }
+
     .btn-left {
         position: relative;
         right: 10px;
     }
-    .about-image{
+
+    .about-image {
         width: 90%;
     }
-    .about-text{
+
+    .about-text {
         width: 83%;
     }
+
     .about-text h3 {
         text-align: center;
     }
+
     .about-text p {
         text-align: center;
     }
-    .about-text h5{
+
+    .about-text h5 {
         text-align: center;
         margin-top: 20px;
     }
+
     .about-text h4 {
         text-align: center;
     }
-    .btn-left{
+
+    .btn-left {
         display: flex;
         justify-content: center;
     }
+
     .online-image {
         padding-left: 38px;
     }
+
     .play-text {
         width: 100%;
     }
+
     .play-text h3 {
         text-align: center;
         font-size: 25px;
     }
+
     .play-text p {
         text-align: center;
     }
+
     .play {
         display: flex;
         align-items: flex-start;
         margin: 20px 20px;
     }
+
     .play-images {
         width: 100%;
-    }  
+    }
+
     .play2 img {
         width: 70%;
         padding-left: 60px;
     }
+
     .play1 {
         position: relative;
         left: 9px;
         top: -93px;
     }
+
     .play1 img {
         height: 110px;
         width: 100px;
+    }
+
+    .game-items-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
     }
 
 }
