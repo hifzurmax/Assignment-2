@@ -329,6 +329,47 @@
     cursor: pointer;
 }
 
+.footer {
+    background-color: #000000;
+}
+
+.social-icons, .list, .terms > ul {
+    display: flex;
+    justify-content: center;
+}
+.terms li {
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+.copyright p{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer-logo {
+    justify-content: center;
+}
+.footer-logo h1 {
+    color: #fff;
+}
+.list >ul{
+    display: flex;
+}
+.list >ul > li {
+    list-style: none;
+    padding: 20px;
+    color: #fff;
+}
+.social-icons > ul {
+    display: flex;
+}
+.social-icons > ul > li {
+    list-style: none;
+    padding: 20px;
+    color: #fff;
+}
+
 /* Mobile Styles */
 
 @media screen and (max-width: 576px) {
