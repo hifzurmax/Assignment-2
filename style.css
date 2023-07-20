@@ -809,7 +809,6 @@
     }
 
     .card-box {
-        padding-left: 38px;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
