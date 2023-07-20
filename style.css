@@ -24,9 +24,10 @@
     background-color: #fff;
     align-items: center;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
+    padding: 0 100px;
     height: 80px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .menu>ul {
@@ -225,8 +226,11 @@
     margin-top: -20px;
 }
 
-/* Online section styles */
 
+
+
+
+/* Online Card section styles */
 .online {
     max-width: 1140px;
     margin: 0 auto;
@@ -247,28 +251,307 @@
     color: #534C64;
     text-align: center;
 }
-
-.online-image {
+.card-box{
     display: flex;
-    gap: 20px;
-    margin-top: 50px;
 }
 
-.online-image img {
-    width: 270px;
+.card1 {
+    display: flex;
+    position: relative;
+    margin: 24px 16px;
+    transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 1px solid #333;
+    border-radius: 2px;
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+/* Card 1 */
+.card1::after {
+  content: "";
+  background: url(./images/Rectangle\ 4.png);
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: 100%;
 }
 
-.watch-now p {
-    font-size: 13px;
-    font-weight: 500;
-    color: #534C64;
+.card-ic1 {
+  font-family: 'Work Sans';
+  padding: 0 16px;
+  font-weight: 400;
 }
+
+
+.card-block1 {
+  text-align: center;
+  padding: 16px;
+  margin-top: 50%;
+}
+
+.card-bg1 {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: .4s ease;
+}
+
+.card-text1 {
+  font-size: .87em;
+  font-family: 'Lato';
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #F95959;
+}
+
+.card1:hover {
+    box-shadow: 0 28px 40px -12px rgba(0,0,0,0.24);
+    transform: scale(1.05);
+}
+
+.card1:hover .card-bg1 {
+	opacity: .8;
+}
+
+.card1:hover ::after {
+  opacity: 0;
+}
+
+/* Card 2 */
+
+
+.card2 {
+    display: flex;
+    position: relative;
+    margin: 24px 16px;
+    transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 1px solid #333;
+    border-radius: 2px;
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.card2::after {
+  content: "";
+  background: url(./images/Rectangle\ 5.png);
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: 100%;
+}
+
+.card-ic2 {
+  font-family: 'Work Sans';
+  padding: 0 16px;
+  font-weight: 400;
+}
+
+
+.card-block2 {
+  text-align: center;
+  padding: 16px;
+  margin-top: 50%;
+}
+
+.card-bg2 {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: .4s ease;
+}
+
+.card-text2 {
+  font-size: .87em;
+  font-family: 'Lato';
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #F95959;
+}
+
+.card2:hover {
+    box-shadow: 0 28px 40px -12px rgba(0,0,0,0.24);
+    transform: scale(1.05);
+}
+
+.card2:hover .card-bg2 {
+	opacity: .8;
+}
+
+.card2:hover ::after {
+  opacity: 0;
+}
+
+/* Card 3 */
+
+.card3 {
+    display: flex;
+    position: relative;
+    margin: 24px 16px;
+    transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 1px solid #333;
+    border-radius: 2px;
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.card3::after {
+  content: "";
+  background: url(./images/Rectangle\ 6.png);
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: 100%;
+}
+
+.card-ic3 {
+  font-family: 'Work Sans';
+  padding: 0 16px;
+  font-weight: 400;
+}
+
+
+.card-block3 {
+  text-align: center;
+  padding: 16px;
+  margin-top: 50%;
+}
+
+.card-bg3 {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: .4s ease;
+}
+
+.card-text3 {
+  font-size: .87em;
+  font-family: 'Lato';
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #F95959;
+}
+
+.card3:hover {
+    box-shadow: 0 28px 40px -12px rgba(0,0,0,0.24);
+    transform: scale(1.05);
+}
+
+.card3:hover .card-bg3 {
+	opacity: .8;
+}
+
+.card3:hover ::after {
+  opacity: 0;
+}
+
+/* Card 4 */
+
+.card4 {
+    display: flex;
+    position: relative;
+    margin: 24px 16px;
+    transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
+    border: 1px solid #333;
+    border-radius: 2px;
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.card4::after {
+  content: "";
+  background: url(./images/Rectangle\ 7.png);
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  width: auto;
+  height: 100%;
+}
+
+.card-ic4 {
+  font-family: 'Work Sans';
+  padding: 0 16px;
+  font-weight: 400;
+}
+
+
+.card-block4 {
+  text-align: center;
+  padding: 16px;
+  margin-top: 50%;
+}
+
+.card-bg4 {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: .4s ease;
+}
+
+.card-text4 {
+  font-size: .87em;
+  font-family: 'Lato';
+  font-weight: 300;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #F95959;
+}
+
+.card4:hover {
+    box-shadow: 0 28px 40px -12px rgba(0,0,0,0.24);
+    transform: scale(1.05);
+}
+
+.card4:hover .card-bg4 {
+	opacity: .8;
+}
+
+.card4:hover ::after {
+  opacity: 0;
+}
+
+
 
 /* Play section */
 
 .play {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     max-width: 1140px;
     margin: 50px auto;
@@ -301,7 +584,7 @@
 
 .play2 img {
     width: 80%;
-    padding-left: 130px;
+    padding-left: 220px;
 }
 
 .play1 img {
@@ -311,7 +594,7 @@
 
 .play1 {
     position: relative;
-    left: 68px;
+    left: 140px;
     top: -140px;
 }
 
@@ -348,9 +631,12 @@
 }
 
 .game-item:hover {
-    border: 1px solid black;
+    border: 1px solid #FF42A5;
     border-radius: 48px;
-    cursor: pointer;
+
+}
+.game-item h6:hover {
+    color: #FF42A5;
 }
 
 /* Footer section styles */
@@ -462,7 +748,7 @@
     .nav,
     .menu>ul,
     .about,
-    .online-image,
+    .card-box,
     .play {
         flex-direction: column;
     }
@@ -536,7 +822,7 @@
         justify-content: center;
     }
 
-    .online-image {
+    .card-box {
         padding-left: 38px;
     }
 
