@@ -260,7 +260,6 @@
     position: relative;
     margin: 24px 16px;
     transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
-    border: 1px solid #333;
     border-radius: 2px;
     color: white;
     width: 250px;
@@ -334,7 +333,6 @@
     position: relative;
     margin: 24px 16px;
     transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
-    border: 1px solid #333;
     border-radius: 2px;
     color: white;
     width: 250px;
@@ -407,7 +405,6 @@
     position: relative;
     margin: 24px 16px;
     transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
-    border: 1px solid #333;
     border-radius: 2px;
     color: white;
     width: 250px;
@@ -480,7 +477,6 @@
     position: relative;
     margin: 24px 16px;
     transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
-    border: 1px solid #333;
     border-radius: 2px;
     color: white;
     width: 250px;
