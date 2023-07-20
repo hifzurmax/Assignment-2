@@ -84,6 +84,24 @@
     color: #000000;
 }
 
+.fa-instagram {
+    color: #FE29B9;
+}
+
+.fa-reddit {
+    color: #FF4A0F;
+}
+
+.fa-facebook {
+    color: #1E76ED;
+}
+.fa-pinterest {
+    color:#4EC5F7;
+}
+.fa-github {
+    color: #E6EDF3;
+}
+
 /* Baner Styles */
 .banner {
     display: flex;
@@ -338,13 +356,14 @@
 /* Footer section styles */
 
 .footer {
-    background-color: #000000;
+    background-color: #0D0222;
     margin-top: 30px;
 }
 
 .footer-logo {
     justify-content: center;
     height: 85px;
+    margin-bottom: 20px;
 }
 
 .footer-logo img {
@@ -355,9 +374,32 @@
     color: #fff;
 }
 
-/* .list, .social-icons {
-    margin-top: 20px;
-} */
+
+.fa-youtube {
+    color: #F61C0D;
+}
+
+.fa-tiktok {
+    color: #000000;
+}
+
+.fa-instagram {
+    color: #FE29B9;
+}
+
+.fa-reddit {
+    color: #FF4A0F;
+}
+
+.fa-facebook {
+    color: #1E76ED;
+}
+.fa-pinterest {
+    color:#4EC5F7;
+}
+.fa-github {
+    color: #E6EDF3;
+}
 
 .list > ul {
     display: grid;
@@ -388,6 +430,7 @@
     color: #fff;
     text-align: center;
     margin-left: 40px;
+    font-size: 25px;
 }
 .terms > ul {
     display: grid;
@@ -563,9 +606,9 @@
     }
 
     
-.footer {
-    width: auto;
-}
+    .footer {
+        width: auto;
+    }
 
     .logo {
         margin-bottom: 2px;
@@ -595,7 +638,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .social-icons>ul>li {
-        font-size: 11px;
+        font-size: 25px;
         padding-top: 18px;
         margin-left: 0;
     }
